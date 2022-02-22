@@ -21,61 +21,100 @@
 
 <body>
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
-        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <h2 class="m-0 text-primary">Box biru</h2>
-        </a>
+    <div class="nav-container sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a href="index.html" class="navbar-brand"></a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
+            <div class="navbar-nav p-4 p-lg-0">
                 <a href="index.html" class="nav-item nav-link active">Our Serices</a>
                 <a href="about.html" class="nav-item nav-link">Why Us</a>
                 <a href="service.html" class="nav-item nav-link">Testimonial</a>
                 <a href="project.html" class="nav-item nav-link">FAQ</a>
-                <a href="contact.html" class="nav-item nav-link">Register</a>
+                <a href="contact.html" class="nav-register nav-link">Register</a>
             </div>
         </div>
     </nav>
+    </div>
     <!-- Navbar End -->
 
     <!-- First Section Start -->
     <div class="first-section">
-        <div class="col-sm-6">
-            <div class="main-title-1">Sewa & Rental Mobil Terbaik di</div>
-            <div class="main-title-2">Kawasan Surabaya</div>
-            <div class="main-description">Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.</div>
-            <div class="button-sewa">Mulai Sewa Mobil</div>
-        </div>
-        <div class="col-sm-6">
-            <img src="img/bcr_car.svg" style="" alt="">
+        <div class="first-section-container">
+            <div class="banner col-sm-6">
+                <div class="main-title-1">Sewa & Rental Mobil Terbaik di</div>
+                <div class="main-title-2">Kawasan Surabaya</div>
+                <div class="main-description">Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.</div>
+                <div class="button-sewa">Mulai Sewa Mobil</div>
+            </div>
+            <div class="car-container col-sm-6">
+                <img src="img/bcr_car.svg" style="" alt="">
+            </div>
         </div>
     </div>
     <!-- First Section Ends -->
 
     <!-- Second Section Start -->
     <div class="second-section">
-        <div class="col-sm-6">
+        <div class="second-section-image col-sm-6">
             <img src="img/person.svg" style="" alt="">
         </div>
         <div class="col-sm-6">
-            <div class="main-title-1">Best Car Rental for any kind of trip in Surabaya!</div>
-            <div class="main-title-2">Kawasan Surabaya</div>
+            <div class="main-title-1">Best Car Rental for any kind of trip in</div>
+            <div class="main-title-2">Surabaya!</div>
             <div class="main-description">Sewa mobil di Surabaya bersama Binar Car Rental jaminan harga lebih murah dibandingkan yang lain, kondisi mobil baru, serta kualitas pelayanan terbaik untuk perjalanan wisata, bisnis, wedding, meeting, dll.</div>
-            <li>Sewa Mobil Dengan Supir di Bali 12 Jam</li>
-            <li>Sewa Mobil Lepas Kunci di Bali 24 Jam</li>
-            <li>Sewa Mobil Jangka Panjang Bulanan</li>
-            <li>Gratis Antar - Jemput Mobil di Bandara</li>
-            <li>Layanan Airport Transfer / Drop In Out</li>
+            <div class="bcr-features-container">
+                <div class="bullets">
+                    <img src="img/bullets.svg" style="" alt="">
+                </div>
+                <div class="bcr-features">
+                    Sewa Mobil Dengan Supir di Bali 12 Jam
+                </div>
+            </div>
+            <div class="bcr-features-container">
+                <div class="bullets">
+                    <img src="img/bullets.svg" style="" alt="">
+                </div>
+                <div class="bcr-features">
+                    Sewa Mobil Lepas Kunci di Bali 24 Jam
+                </div>
+            </div>
+            <div class="bcr-features-container">
+                <div class="bullets">
+                    <img src="img/bullets.svg" style="" alt="">
+                </div>
+                <div class="bcr-features">
+                    Sewa Mobil Jangka Panjang Bulanan
+                </div>
+            </div>
+            <div class="bcr-features-container">
+                <div class="bullets">
+                    <img src="img/bullets.svg" style="" alt="">
+                </div>
+                <div class="bcr-features">
+                    Gratis Antar - Jemput Mobil di Bandara
+                </div>
+            </div>
+            <div class="bcr-features-container">
+                <div class="bullets">
+                    <img src="img/bullets.svg" style="" alt="">
+                </div>
+                <div class="bcr-features">
+                    Layanan Airport Transfer / Drop In Out
+                </div>
+            </div>
         </div>
     </div>
     <!-- Second Section Ends -->
 
     <!-- Third Section Start -->
     <div class="third-section">
-        <div>Why Us?</div>
-        <div>Mengapa harus pilih Binar Car Rental?</div>
+        <div class="third-section-container">
+            <div class="third-section-title">Why Us?</div>
+            <div class="third-section-description">Mengapa harus pilih Binar Car Rental?</div>
+        </div>
         <div class="row-why-us">
             <div class="why-box col-sm-3">
                 <img class="why_us_images" src="img/icon_complete.svg" style="" alt="">
@@ -115,7 +154,39 @@
                         <img class="review-stars" src="img/stars.svg" style="" alt="">
                     </div>
                     <div class="reviews">
-                        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
+                        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
+                    </div>
+                    <div class="names">
+                        <p>John Dee 32, Bromo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="review-box">
+                <div class="photo-section">
+                    <img class="review-person" src="img/review_photo.svg" style="" alt="">
+                </div>
+                <div class="text-section">
+                    <div class="stars">
+                        <img class="review-stars" src="img/stars.svg" style="" alt="">
+                    </div>
+                    <div class="reviews">
+                        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
+                    </div>
+                    <div class="names">
+                        <p>John Dee 32, Bromo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="review-box">
+                <div class="photo-section">
+                    <img class="review-person" src="img/review_photo.svg" style="" alt="">
+                </div>
+                <div class="text-section">
+                    <div class="stars">
+                        <img class="review-stars" src="img/stars.svg" style="" alt="">
+                    </div>
+                    <div class="reviews">
+                        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
                     </div>
                     <div class="names">
                         <p>John Dee 32, Bromo</p>
@@ -128,7 +199,19 @@
 
     <!-- Fifth Section Start -->
     <div class="fifth-section">
-        Ongoing
+        <div class="container-fifth-section">
+            <div class="text-container">
+                <div class="first-line">
+                    Sewa Mobil di (Lokasimu) Sekarang
+                </div>
+                <div class="second-line">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </div>
+                <div class="third-line">
+                    Mulai Sewa Mobil
+                </div>
+            </div>
+        </div>
     </div>
     <!-- Fifth Section Ends -->
     

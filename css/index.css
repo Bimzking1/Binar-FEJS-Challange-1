@@ -4,17 +4,83 @@ html *
     font-size: 12pt;
 }
 
+/* navbar-section */
+
+@media screen and (min-width: 1025px){
+
+    .nav-container{
+        display: flex;
+        justify-content: center;
+        background-color: #F1F3FF;
+    }
+
+    .navbar{
+        width: 90%;
+        height: 60px;
+    }
+
+    .navbar-collapse{
+        display: flex;
+        justify-content: right;
+    }
+
+    .nav-item{
+        margin-right: 30px;
+    }
+
+    .nav-register{
+        width: 100px;
+        text-align: center;
+        color: white;
+        background-color: #5CB85F;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .nav-container{
+        background-color: #F1F3FF;
+    }
+}
+
+.navbar-brand{
+    height: 40px;
+    width: 100px;
+    background-color: #0D28A6;
+}
+
+/* first-section */
+
 .first-section{
     display: flex;
+    justify-content: center;
+    background-color: #F1F3FF;
+}
+
+.first-section-container{
+    width: 90%;
+    display: flex;
     flex-direction: row;
+    background-color: #F1F3FF;
+    padding-top: 20px;
+}
+
+.banner{
+    margin-top: 50px;
 }
 
 .main-description{
     width: 80%;
-    background-color: orange;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .button-sewa{
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #5CB85F;
     color: white;
 }
@@ -23,14 +89,16 @@ html *
     font-size: 24pt;
     font-weight: 700;
     color: black;
-    background-color: red;
 }
 
 .main-title-2 {
     font-size: 24pt;
     font-weight: 700;
     color: black;
-    background-color: red;
+}
+
+.car-container{
+    transform:translate(-10%,0%);
 }
 
 /* Second Sec */
@@ -38,6 +106,27 @@ html *
 .second-section{
     display: flex;
     flex-direction: row;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.second-section-image{
+    display: flex;
+    justify-content: right;
+    padding-right: 80px;
+}
+
+.bcr-features-container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.bcr-features{
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Third Section */
@@ -46,6 +135,22 @@ html *
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.third-section-container{
+    width: 88%;
+}
+
+.third-section-title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.third-section-description{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 25px;
 }
 
 .row-why-us{
@@ -88,6 +193,11 @@ html *
 
 /* Fourth Section */
 
+.review-slider{
+    display: flex;
+    flex-direction: row;
+}
+
 .review-box{
     max-width: 40%;
     background-color: #F1F3FF;
@@ -106,5 +216,5 @@ html *
     background-color: yellow;
     display: flex;
     flex-direction: column;
-    align-content: center;
+    justify-content: center;
 }
