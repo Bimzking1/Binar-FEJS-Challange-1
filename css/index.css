@@ -193,28 +193,186 @@ html *
 
 /* Fourth Section */
 
+.fourth-section-container{
+    overflow-x: hidden;
+    margin-top: 100px;
+}
+
+.title-class{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-title{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.testimonial-description{
+    font-size: 14px;
+    margin: 10px;
+}
+
 .review-slider{
+    margin-top: 20px;
+    height: 250px;
+    width: 150%;
     display: flex;
     flex-direction: row;
+    /* transform: translateX(-18%); */
+    transform: translateX(calc(100% / (-6)));
 }
 
 .review-box{
     max-width: 40%;
-    background-color: #F1F3FF;
+    margin-right: 10px;
+    margin-left: 10px;
     display: flex;
     flex-direction: row;
+    background-color: #F1F3FF;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .photo-section{
-    background-color: red;
+    background-color: transparent;
     padding: 40px;
     display: flex;
     align-items: center;
 }
 
 .text-section{
-    background-color: yellow;
+    background-color: transparent;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
+.stars{
+    margin-bottom: 10px;
+}
+
+/* Fifth section */
+
+.fifth-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fifth-section-container{
+    width: 88%;
+    text-align: center;
+    color: white;
+    background-color: #0D28A6;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-line{
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.second-line{
+    width: 50%;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.button-sewa-mobil{
+    background-color: #5CB85F;
+    border: 0px;
+    width: 160px;
+    height: 40px;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    margin: 50px;
+}
+
+/* Sixth section */
+
+.sixth-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sixth-section-container{
+    width: 88%;
+    text-align: center;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.left-section{
+    text-align: left;
+    color: black
+}
+
+.left-section-title{
+    font-size: 24px;
+    font-weight: 600;
+    color: black
+}
+
+.left-section-description{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    color: black
+}
+
+.right-section-collapse{
+    display: flex;
+    flex-direction: column;
+}
+
+.faq-collapse{
+    border: 0px;
+    width: 100%;
+    height: 50px;
+    border: 2px solid #D4D4D4;
+    background-color: white;
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.faq-answers{
+    color: black;
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* footer */
+
+.footer-section{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.footer-section-container{
+    width: 88%;
+}
+
+.blue-box{
+    height: 35px;
+    width: 110px;
+    margin-top: 10px;
+    background-color: #0D28A6;
+}
+
