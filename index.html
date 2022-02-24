@@ -11,9 +11,6 @@
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
 
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Template Stylesheet -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link href="css/index.css" rel="stylesheet">
@@ -28,12 +25,12 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Our Serices</a>
-                <a href="about.html" class="nav-item nav-link">Why Us</a>
-                <a href="service.html" class="nav-item nav-link">Testimonial</a>
-                <a href="project.html" class="nav-item nav-link">FAQ</a>
-                <a href="contact.html" class="nav-register nav-link">Register</a>
+            <div id="navlist" class="navbar-nav p-4 p-lg-0">
+                <a href="#OurServices" class="nav-item nav-link active">Our Serices</a>
+                <a href="#WhyUs" class="nav-item nav-link active">Why Us</a>
+                <a href="#Testimonial" class="nav-item nav-link active">Testimonial</a>
+                <a href="#FAQ" class="nav-item nav-link active">FAQ</a>
+                <a href="index.html" class="nav-register nav-link active">Register</a>
             </div>
         </div>
     </nav>
@@ -50,21 +47,21 @@
                 <div class="button-sewa">Mulai Sewa Mobil</div>
             </div>
             <div class="car-container col-sm-6">
-                <img src="img/bcr_car.svg" style="" alt="">
+                <img src="img/bcr_car.svg" class="car-container-inner" alt="">
             </div>
         </div>
     </div>
     <!-- First Section Ends -->
 
     <!-- Second Section Start -->
-    <div class="second-section">
-        <div class="second-section-image col-sm-6">
-            <img src="img/person.svg" style="" alt="">
+    <div class="second-section" id="OurServices">
+        <div class="second-section-image col-sm-6 d-none d-sm-block">
+            <img src="img/person.svg" class="person-container" alt="">
         </div>
-        <div class="col-sm-6">
-            <div class="main-title-1">Best Car Rental for any kind of trip in</div>
-            <div class="main-title-2">Surabaya!</div>
-            <div class="main-description">Sewa mobil di Surabaya bersama Binar Car Rental jaminan harga lebih murah dibandingkan yang lain, kondisi mobil baru, serta kualitas pelayanan terbaik untuk perjalanan wisata, bisnis, wedding, meeting, dll.</div>
+        <div class="col-sm-6 benefits-container">
+            <div class="second-section-main-title-1">Best Car Rental for any kind of trip in</div>
+            <div class="second-section-main-title-2">Surabaya!</div>
+            <div class="second-section-main-description">Sewa mobil di Surabaya bersama Binar Car Rental jaminan harga lebih murah dibandingkan yang lain, kondisi mobil baru, serta kualitas pelayanan terbaik untuk perjalanan wisata, bisnis, wedding, meeting, dll.</div>
             <div class="bcr-features-container">
                 <div class="bullets">
                     <img src="img/bullets.svg" style="" alt="">
@@ -101,7 +98,7 @@
                 <div class="bullets">
                     <img src="img/bullets.svg" style="" alt="">
                 </div>
-                <div class="bcr-features">
+                <div class="bcr-features" id="WhyUs">
                     Layanan Airport Transfer / Drop In Out
                 </div>
             </div>
@@ -134,7 +131,7 @@
             <div class="why-box col-sm-3">
                 <img class="why_us_images" src="img/icon_professional.svg" style="" alt="">
                 <div class="why_us_title" >Sopir Profesional</div>
-                <div class="why_us_description" >Sopir yang profesional, berpengalaman, jujur, ramah dan selalu tepat waktu</div>
+                <div id="Testimonial" class="why_us_description" >Sopir yang profesional, berpengalaman, jujur, ramah dan selalu tepat waktu</div>
             </div>
         </div>
     </div>
@@ -157,10 +154,10 @@
                         <img class="review-stars" src="img/stars.svg" style="" alt="">
                     </div>
                     <div class="reviews">
-                        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
+                        “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”
                     </div>
                     <div class="names">
-                        <p>John Dee 32, Bromo</p>
+                        John Dee 32, Bromo
                     </div>
                 </div>
             </div>
@@ -173,10 +170,10 @@
                         <img class="review-stars" src="img/stars.svg" style="" alt="">
                     </div>
                     <div class="reviews">
-                        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
+                        “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”
                     </div>
                     <div class="names">
-                        <p>John Dee 32, Bromo</p>
+                        John Dee 32, Bromo
                     </div>
                 </div>
             </div>
@@ -189,10 +186,10 @@
                         <img class="review-stars" src="img/stars.svg" style="" alt="">
                     </div>
                     <div class="reviews">
-                        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
+                        “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”
                     </div>
                     <div class="names">
-                        <p>John Dee 32, Bromo</p>
+                        John Dee 32, Bromo
                     </div>
                 </div>
             </div>
@@ -211,7 +208,7 @@
                 <div class="second-line">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </div>
-                <button class="button-sewa-mobil">
+                <button class="button-sewa-mobil" id="FAQ">
                     Mulai Sewa Mobil
                 </button>
             </div>
@@ -222,7 +219,7 @@
     <!-- Sixth Section Start -->
     <div class="sixth-section">
         <div class="row sixth-section-container">
-            <div class="col-5 left-section">
+            <div class="col-lg-5 col-lg-5 col-sm-5 col-12 left-section">
                 <div class="left-section-title">
                     Frequently Asked Questions
                 </div>
@@ -230,7 +227,7 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit
                 </div>
             </div>
-            <div class="col-7 right-section">
+            <div class="col-lg-7 col-md-7 col-sm-7 col-12 right-section">
                 <div class="right-section-collapse">
                     <button type="button" class="faq-collapse" data-toggle="collapse" data-target="#question1">Apa saja syarat yang dibutuhkan?</button>
                     <div id="question1" class="collapse faq-answers">
@@ -269,50 +266,50 @@
     <!-- Footer Section Start -->
     <div class="footer-section">
         <div class="row footer-section-container">
-            <div class="col-4">
-                <div class="row" style="margin-bottom: 10px;">
+            <div class="col-12 col-lg-4 col-md-4 col-sm-4">
+                <div class="row footer-text" style="margin-bottom: 10px;">
                     Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000
                 </div>
-                <div class="row" style="margin-bottom: 10px;">
+                <div class="row footer-text">
                     binarcarrental@gmail.com
                 </div>
-                <div class="row" style="margin-bottom: 10px;">
+                <div class="row footer-text">
                     081-233-334-808
                 </div>
             </div>
-            <div class="col-2">
-                <div class="row" style="margin-bottom: 10px;">
-                    Our services
-                </div>
-                <div class="row" style="margin-bottom: 10px;">
+            <div id="navlist" class="col-12 col-lg-2 col-md-2 col-sm-2">
+                <a href="#OurServices" class="row footer-text" style="text-decoration: none; color: black;">
+                    Our Services
+                </a>
+                <a href="#WhyUs" class="row footer-text" style="text-decoration: none; color: black;">
                     Why Us
-                </div>
-                <div class="row" style="margin-bottom: 10px;">
+                </a>
+                <a href="#Testimonial" class="row footer-text" style="text-decoration: none; color: black;">
                     Testimonial
-                </div>
-                <div class="row" style="margin-bottom: 10px;">
+                </a>
+                <a href="#FAQ" class="row footer-text" style="text-decoration: none; color: black;">
                     FAQ
-                </div>
+                </a>
             </div>
-            <div class="col-3">
-                <div class="row">
+            <div class="col-12 col-lg-3 col-md-3 col-sm-3">
+                <div class="row footer-text">
                     Connect with us
                 </div>
                 <div class="row blue-icon" style="margin-top: 10px;" >
-                    <img src="img/icon_facebook.svg" style="margin-right: 10px;" alt="">
-                    <img src="img/icon_instagram.svg" style="margin-right: 10px;" alt="">
-                    <img src="img/icon_twitter.svg" style="margin-right: 10px;" alt="">
-                    <img src="img/icon_twitch.svg" style="margin-right: 10px;" alt="">
-                    <img src="img/icon_mail.svg" style="" alt="">
+                    <img src="img/icon_facebook.svg" class="icon-socmed" style="margin-right: 10px;" alt="">
+                    <img src="img/icon_instagram.svg" class="icon-socmed" style="margin-right: 10px;" alt="">
+                    <img src="img/icon_twitter.svg" class="icon-socmed" style="margin-right: 10px;" alt="">
+                    <img src="img/icon_twitch.svg" class="icon-socmed" style="margin-right: 10px;" alt="">
+                    <img src="img/icon_mail.svg" class="icon-socmed" style="" alt="">
                 </div>
             </div>
-            <div class="col-3">
-                <div class="row">
+            <div class="col-12 col-lg-3 col-md-3 col-sm-3 blue-box-container">
+                <div class="row footer-text">
                     Copyright Binar 2022
                 </div>
-                <div class="row blue-box">
+                <a href="index.html" class="row blue-box">
                     
-                </div>
+                </a>
             </div>
         </div>
     </div>
@@ -322,6 +319,26 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+	
+        // When the user scrolls down then
+        // slide down the navbar
+        window.onscroll = function() {
+            scroll()
+        };
+    
+        function scroll() {
+            if (document.body.scrollTop > 20 ||
+                    document.documentElement.scrollTop > 20) {
+                document.getElementById("navlist").style.top = "100px";
+            }
+            else {
+                document.getElementById("navlist").style.top = "100px";
+            }
+        }
+    </script>
+    
 </body>
 
 </html>
