@@ -1,9 +1,9 @@
 # Binar-FEJS-Challange-1
 
-1. Landing page ini menggunakan:
+1. Landing page ini menggunakan: 
     
-    a. HTML
-    b. Bootstrap 4.6
-    c. CSS
+    HTML, Bootstrap 4.6, CSS.
 
-2. Tampilan sudah responsive dengan Media Query di CSS.
+2. Tampilan sudah responsive menggunakan Media Query di CSS.
+
+3. Section Testimonial hanya statis. Tidak bisa digeser-geser.
