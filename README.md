@@ -1,4 +1,4 @@
-# Binar-FEJS-Challange-1
+# Binar-FEJS-Challenge-1
 
 1. Landing page ini menggunakan: 
     
